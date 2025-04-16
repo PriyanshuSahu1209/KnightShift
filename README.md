@@ -7,8 +7,3 @@ KnightShift is an educational block-based coding adventure built with Flutter an
 - Block-based code builder
 - Designed for mobile and tablet
 - Built with Flutter & Flame
-
-## Getting Started
-```bash
-flutter pub get
-flutter run
