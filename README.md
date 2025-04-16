@@ -1,16 +1,14 @@
-# knightshift
+# KnightShift ⚔️💻
 
-A new Flutter project.
+KnightShift is an educational block-based coding adventure built with Flutter and Flame for children aged 7–12. Solve puzzles, learn logic, and become a Knight of Code!
+
+## Features
+- Interactive 4:3 gameplay grid
+- Block-based code builder
+- Designed for mobile and tablet
+- Built with Flutter & Flame
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
