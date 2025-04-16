@@ -1,2 +1,14 @@
-# KnightShift 🛡️
-An interactive, block-based coding adventure for children ages 7–12. Train your logic, master your loops, and rise through the ranks—not with a sword, but with code. Built using Flutter and Flame, designed to make programming fun, engaging, and knightly.
+# KnightShift ⚔️💻
+
+KnightShift is an educational block-based coding adventure built with Flutter and Flame for children aged 7–12. Solve puzzles, learn logic, and become a Knight of Code!
+
+## Features
+- Interactive 4:3 gameplay grid
+- Block-based code builder
+- Designed for mobile and tablet
+- Built with Flutter & Flame
+
+## Getting Started
+```bash
+flutter pub get
+flutter run
