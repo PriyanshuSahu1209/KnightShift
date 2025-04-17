@@ -15,12 +15,17 @@ class Knightshift extends FlameGame {
   final world =  Level();
 
   @override
-  FutureOr<void> onLoad() {
+  FutureOr<void> onLoad() async {
     
+    // Caching all Images
+    await images.loadAllImages();
+
     cam = CameraComponent.withFixedResolution(world: world, width: 1408, height: 768);
     cam.viewfinder.anchor = Anchor.topLeft;
     
     addAll([cam, world]);
+
+
 
     return super.onLoad();
   }

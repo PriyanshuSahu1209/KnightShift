@@ -10,19 +10,31 @@
             "scaleInEditor": 1
         },
         "Bridge_All.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
+        "Bushes.tsx": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
         "Carved_9Slides.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "Castle_Blue.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
+        },
+        "Directions.tsx": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
         },
         "Fire.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "Foam.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -37,7 +49,17 @@
         "Shadows.tsx": {
             "scaleInDock": 1
         },
+        "Sheep.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Stones.tsx": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
         "Tilemap_Elevation.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "Tilemap_Flat.tsx": {
@@ -54,8 +76,8 @@
             "scale": 0.75,
             "selectedLayer": 8,
             "viewCenter": {
-                "x": 385.33333333333337,
-                "y": 290.66666666666663
+                "x": 462.6666666666667,
+                "y": 177.33333333333331
             }
         },
         "mushroom1.tsx": {
@@ -63,36 +85,45 @@
             "scaleInEditor": 1
         },
         "mushroom2.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "mushroom3.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "mushroom4.tsx": {
+            "dynamicWrapping": false,
+            "scaleInEditor": 1
         }
     },
     "last.externalTilesetPath": "D:/KnightShift/assets/tiles",
-    "last.imagePath": "D:/KnightShift/assets/images/Effects/Fire",
+    "last.imagePath": "D:/KnightShift/assets/images/Resources/Sheep",
     "openFiles": [
         "level-mockup.tmx",
         "mushroom1.tsx"
     ],
     "project": "knightshift.tiled-project",
     "recentFiles": [
+        "Sheep.tsx",
+        "Bushes.tsx",
+        "Stones.tsx",
+        "Directions.tsx",
+        "mushroom4.tsx",
         "mushroom1.tsx",
         "level-mockup.tmx",
         "Level-0.tmx",
         "Fire.tsx",
         "mushroom2.tsx",
         "mushroom3.tsx",
-        "Tree.tsx",
-        "BlueKnight.tsx",
-        "Foam.tsx"
+        "Tree.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
         "height": 64,
         "width": 64
-    }
+    },
+    "tileset.type": 0
 }
