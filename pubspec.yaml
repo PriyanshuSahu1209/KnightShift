@@ -71,6 +71,7 @@ flutter:
     - assets/images/UI/Banners/
     - assets/images/Factions/Knights/Buildings/Castle/
     - assets/images/Resources/Trees/
+    - assets/images/Deco/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
