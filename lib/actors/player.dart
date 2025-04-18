@@ -7,10 +7,11 @@ enum PlayerState { idle, running }
 class Player extends SpriteAnimationGroupComponent with HasGameRef <Knightshift> {
     
     String character;
-    Player ({required this.character});
+    Player ({position, required this.character}) : super(position: position);
+    
+
     late final SpriteAnimation idleAnimation;
     late final SpriteAnimation runningAnimation;
-    final double stepTime = 0.1;
 
 
     @override
@@ -38,7 +39,7 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef <Knightshift>
       game.images.fromCache('Factions/Knights/Troops/Warrior/$character/Warrior_$character.png'), 
       SpriteAnimationData.sequenced (
         amount: 6, 
-        stepTime: stepTime, 
+        stepTime: 0.1, 
         textureSize: Vector2.all(192),
         texturePosition: Vector2(0, (192 * animationNumber)),
         ),

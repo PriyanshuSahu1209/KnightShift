@@ -12,7 +12,9 @@ class Knightshift extends FlameGame {
   late final CameraComponent cam;
 
   @override
-  final world =  Level();
+  final world =  Level(
+    levelName: 'level-mockup'
+  );
 
   @override
   FutureOr<void> onLoad() async {

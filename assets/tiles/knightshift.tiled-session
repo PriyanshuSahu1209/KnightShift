@@ -3,6 +3,7 @@
     "expandedProjectPaths": [
         "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "BlueKnight.tsx": {
             "dynamicWrapping": false,
@@ -15,6 +16,7 @@
         },
         "Bushes.tsx": {
             "dynamicWrapping": true,
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "Carved_9Slides.tsx": {
@@ -27,6 +29,7 @@
         },
         "Directions.tsx": {
             "dynamicWrapping": true,
+            "scaleInDock": 0.75,
             "scaleInEditor": 1
         },
         "Fire.tsx": {
@@ -56,6 +59,7 @@
         },
         "Stones.tsx": {
             "dynamicWrapping": true,
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "Tilemap_Elevation.tsx": {
@@ -70,14 +74,18 @@
             "scaleInEditor": 1
         },
         "Water.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "level-mockup.tmx": {
-            "scale": 0.75,
+            "expandedObjectLayers": [
+                17
+            ],
+            "scale": 0.5,
             "selectedLayer": 8,
             "viewCenter": {
-                "x": 462.6666666666667,
-                "y": 177.33333333333331
+                "x": 626,
+                "y": 216
             }
         },
         "mushroom1.tsx": {
@@ -95,6 +103,7 @@
         },
         "mushroom4.tsx": {
             "dynamicWrapping": false,
+            "scaleInDock": 1,
             "scaleInEditor": 1
         }
     },
@@ -106,13 +115,13 @@
     ],
     "project": "knightshift.tiled-project",
     "recentFiles": [
+        "level-mockup.tmx",
         "Sheep.tsx",
         "Bushes.tsx",
         "Stones.tsx",
         "Directions.tsx",
         "mushroom4.tsx",
         "mushroom1.tsx",
-        "level-mockup.tmx",
         "Level-0.tmx",
         "Fire.tsx",
         "mushroom2.tsx",
