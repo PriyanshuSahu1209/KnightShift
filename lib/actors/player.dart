@@ -11,12 +11,11 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef <Knightshift>
     String character;
     Player ({super.position , required this.character});
     
-
     late final SpriteAnimation idleAnimation;
     late final SpriteAnimation runningAnimation;
     late final SpriteAnimation attackAnimation;
 
-    PlayerDirection playerDirection = PlayerDirection.right;
+    PlayerDirection playerDirection = PlayerDirection.none;
     double moveSpeed = 100;
     Vector2 velocity = Vector2.zero();
     bool isFacingright = true;
@@ -86,12 +85,12 @@ class Player extends SpriteAnimationGroupComponent with HasGameRef <Knightshift>
 
       case PlayerDirection.up:
         current = PlayerState.running;
-        diry = -moveSpeed;
+        diry  -= moveSpeed;
         break;
 
       case PlayerDirection.down:
         current = PlayerState.running;
-        diry = moveSpeed;
+        diry += moveSpeed;
         break;
 
       case PlayerDirection.none:
