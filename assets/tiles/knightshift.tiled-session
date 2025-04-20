@@ -41,15 +41,46 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "G_Spawn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Gold.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "HappySheep_All.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "Level-0.tmx": {
-            "scale": 0.5,
-            "selectedLayer": 0,
+            "scale": 0.75,
+            "selectedLayer": 8,
             "viewCenter": {
-                "x": 700,
-                "y": 338
+                "x": 321.3333333333333,
+                "y": 383.99999999999994
             }
         },
+        "Rocks_01.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Rocks_02.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Rocks_03.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Rocks_04.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "Shadows.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "Sheep.tsx": {
@@ -75,17 +106,23 @@
         },
         "Water.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "WaterRocks.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "level-mockup.tmx": {
             "expandedObjectLayers": [
                 17
             ],
-            "scale": 0.5,
-            "selectedLayer": 8,
+            "scale": 1,
+            "selectedLayer": 7,
             "viewCenter": {
-                "x": 626,
-                "y": 216
+                "x": 551,
+                "y": 362
             }
         },
         "mushroom1.tsx": {
@@ -108,25 +145,27 @@
         }
     },
     "last.externalTilesetPath": "D:/KnightShift/assets/tiles",
-    "last.imagePath": "D:/KnightShift/assets/images/Resources/Sheep",
+    "last.imagePath": "D:/KnightShift/assets/images/Resources/Resources",
     "openFiles": [
         "level-mockup.tmx",
-        "mushroom1.tsx"
+        "Level-0.tmx",
+        "Water.tsx",
+        "G_Spawn.tsx"
     ],
     "project": "knightshift.tiled-project",
     "recentFiles": [
-        "level-mockup.tmx",
-        "Sheep.tsx",
-        "Bushes.tsx",
-        "Stones.tsx",
-        "Directions.tsx",
-        "mushroom4.tsx",
-        "mushroom1.tsx",
+        "G_Spawn.tsx",
+        "Water.tsx",
         "Level-0.tmx",
-        "Fire.tsx",
-        "mushroom2.tsx",
-        "mushroom3.tsx",
-        "Tree.tsx"
+        "level-mockup.tmx",
+        "Gold.tsx",
+        "HappySheep_All.tsx",
+        "Rocks_03.tsx",
+        "Rocks_04.tsx",
+        "Rocks_02.tsx",
+        "Rocks_01.tsx",
+        "WaterRocks.tsx",
+        "Sheep.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",

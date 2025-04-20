@@ -21,7 +21,7 @@ class Level extends World {
     for(final spwanPoint in spwanPointsLayer!.objects) {
       switch (spwanPoint.class_) {
         case 'Player':
-        final player = Player(character: 'Blue', position: Vector2(spwanPoint.x, spwanPoint.y));
+        final player = Player(character: 'Red', position: Vector2(spwanPoint.x, spwanPoint.y));
         add (player);
         break;
       default: 

@@ -27,8 +27,6 @@ class Knightshift extends FlameGame {
     
     addAll([cam, world]);
 
-
-
     return super.onLoad();
   }
 }
